@@ -103,8 +103,7 @@ class Lvq1:
                 network model. The default value of p is 2 for which the Minkowski distance is
                 equal to the Euclidean distance.
         """
-        np.random.seed(1)
-        
+
         print("\n    Initializing the weights of the lvq network...\n")
         if(weight_init_method == "real-samples"):
             self.__real_sample_initialization(training_data, target_labels, k, p)
