@@ -7,7 +7,6 @@ The LVQ classifier can be used by importing the class Lvq1 from the lvq1.py file
 ## Required libraries
 * SciPy
 * NumPy
-* nltk (English stopwords, Word tokenizer)
 
 ## How to use 
 This is an example of how to use the LVQ model in code. 
